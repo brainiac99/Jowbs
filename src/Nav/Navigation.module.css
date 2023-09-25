@@ -20,7 +20,7 @@ img {
 }
 
 .dp {
-  width: 1.4rem;
+  width: 2rem;
   aspect-ratio: 1;
   border-radius: 50%;
   overflow: hidden;
@@ -36,14 +36,14 @@ img {
   font-weight: bold;
 }
 
-.navLinks li {
+.navLink {
   position: relative;
   overflow: hidden;
 
   padding-block: 0.3rem;
 }
 
-.navLinks li::before {
+.navLink::before {
   content: "";
   height: 2px;
   width: 100%;
@@ -53,10 +53,11 @@ img {
   bottom: 0;
   left: 0;
 
-  translate: -100% 0;
-  transition: translate 350ms ease-in;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 350ms ease-in;
 }
 
-.navLinks li:hover::before {
-  translate: 0;
+.navLink:hover::before {
+  scale: 1 1;
 }

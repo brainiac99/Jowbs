@@ -23,39 +23,13 @@
   line-height: 1.8;
 }
 
-button {
-  font-size: 1rem;
-  padding: 1rem 3rem;
-  border: 2px solid #7e67dd;
-  margin-right: 1rem;
-  border-radius: 8px;
-
-  cursor: pointer;
-  transition: all 300ms ease;
-  font-weight: bold;
+.buttonsContainer {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
 }
 
-.getStarted {
-  background-color: #7e67dd;
-  color: #fff;
-}
-
-.getStarted:hover {
-  background-color: transparent;
-  color: #7e67dd;
-}
-
-.learnMore {
-  background-color: transparent;
-  color: #7e67dd;
-}
-
-.learnMore:hover {
-  background-color: #7e67dd;
-  color: #fff;
-}
-
-:global .blob {
+.blob {
   height: 60%;
   aspect-ratio: 1;
 
@@ -70,7 +44,7 @@ button {
 }
 
 @media (max-width: 1175px) {
-  :global .blob {
+  .blob {
     height: 70%;
   }
 }

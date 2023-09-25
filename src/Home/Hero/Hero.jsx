@@ -1,7 +1,8 @@
 import Lottie from "lottie-react";
 import animationData from "../../../public/animation 2.json";
+import Blob from "../../utils/Blob";
+import Button from "../../utils/Button";
 import heroStyles from "./Hero.module.css";
-import Blob from "../Blob";
 
 function Hero() {
 
@@ -20,9 +21,11 @@ function Hero() {
           Consequuntur numquam aliquid fugiat dolorem ipsa provident
           perspiciatis tempore distinctio. Libero debitis animi aut pariatur.
         </p>
-        <button className={heroStyles.getStarted}>Get Started</button>
-        <button className={heroStyles.learnMore}>Learn more</button>
-        <Blob/>
+        <div className={heroStyles.buttonsContainer}>
+          <Button link="/" type="primary">Get Started</Button>
+          <Button link="/" type="secondary">Learn More</Button>
+        </div>
+        <Blob className={heroStyles.blob}/>
       </div>
     </section>
   );

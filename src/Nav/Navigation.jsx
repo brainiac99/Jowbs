@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import navStyles from "./Navigation.module.css";
+import Button from "../utils/Button";
 
 function Navigation() {
   return (
@@ -8,19 +10,29 @@ function Navigation() {
       </div>
       <ul className={navStyles.navLinks}>
         <li>
-          <a className={navStyles.navLink} href="#">Home</a>
+          <Link className={navStyles.navLink} to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <a className={navStyles.navLink} href="#">About</a>
+          <Link className={navStyles.navLink} to="/">
+            About
+          </Link>
         </li>
         <li>
-          <a className={navStyles.navLink} href="#">Contact</a>
+          <Link className={navStyles.navLink} to="/">
+            Contact
+          </Link>
         </li>
         <li>
-          <a className={navStyles.navLink} href="#">Sign in</a>
+          <Button type="secondary" link="/">
+            Sign in
+          </Button>
         </li>
         <li>
-          <a className={navStyles.navLink} href="#">Sign up</a>
+          <Button type="primary" link="/">
+            Sign up
+          </Button>
         </li>
       </ul>
       <div className={navStyles.dp}>
