@@ -1,0 +1,75 @@
+.sectionTestimonials {
+  margin-top: 6rem;
+  width: 300%;
+  position: relative;
+
+  margin-left: 2rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #7e67dd;
+}
+
+.container {
+  margin-top: 6rem;
+  display: flex;
+
+  transition: transform 300ms ease-in-out;
+}
+
+.testimonialsContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  width: 100%;
+}
+
+.imageContainer {
+  max-width: 200px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.rating {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 0.2rem;
+  color: #12ac55;
+}
+
+.comment {
+  font-size: 1.4rem;
+}
+
+.buttons {
+  position: absolute;
+  top: 85%;
+  left: 28%;
+}
+
+.buttons button {
+  border: 1px solid #ddd;
+  background-color: transparent;
+  padding: 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}

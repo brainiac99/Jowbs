@@ -1,0 +1,27 @@
+.sectionLogos {
+  margin-top: 6rem;
+  padding-inline: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #7e67dd;
+}
+
+.logosContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logosContainer > li {
+  flex: 1 1 33%;
+  max-width: 200px;
+}
+
+.logosContainer img {
+  width: 70%;
+}

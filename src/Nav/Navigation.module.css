@@ -1,11 +1,29 @@
 .navigation {
   display: flex;
   align-items: center;
+
+  margin-bottom: 3rem;
+  padding-inline: 2rem;
 }
 
 .logo {
+  position: relative;
   height: 7rem;
   aspect-ratio: 1;
+  text-decoration: none;
+}
+
+.logo::after {
+  content: "Jowbs";
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #7e67dd;
+
+  position: absolute;
+  left: 80%;
+  top: 50%;
+
+  translate: 0 -50%;
 }
 
 img {

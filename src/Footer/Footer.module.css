@@ -1,0 +1,56 @@
+.footer {
+  margin-top: 8rem;
+  padding-inline: 2rem;
+}
+
+.content {
+  border-block: 2px solid #eee;
+  padding-block: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 2rem;
+}
+
+.logoContainer {
+  max-width: 8rem;
+  filter: grayscale(100%) brightness(120%);
+}
+
+.companyTitle {
+  margin-left: 2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 1.6rem;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  text-align: left;
+}
+
+.linksContainer h4 {
+  margin-bottom: 1rem;
+}
+
+.linksContainer ul {
+  list-style: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.linksContainer a {
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 600;
+
+  transition: color 300ms ease;
+}
+
+.linksContainer a:hover {
+  color: #000;
+}

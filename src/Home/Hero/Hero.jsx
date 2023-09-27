@@ -22,7 +22,7 @@ function Hero() {
           perspiciatis tempore distinctio. Libero debitis animi aut pariatur.
         </p>
         <div className={heroStyles.buttonsContainer}>
-          <Button link="/" type="primary">Get Started</Button>
+          <Button link="/" type="primary">Start Searching</Button>
           <Button link="/" type="secondary">Learn More</Button>
         </div>
         <Blob className={heroStyles.blob}/>

@@ -5,9 +5,9 @@ import Button from "../utils/Button";
 function Navigation() {
   return (
     <nav className={navStyles.navigation}>
-      <div className={navStyles.logo}>
-        <img src="../../public/logo 5 violet.png" />
-      </div>
+      <Link to="/" className={navStyles.logo}>
+          <img src="../../public/logo 5 violet.png" />
+      </Link>
       <ul className={navStyles.navLinks}>
         <li>
           <Link className={navStyles.navLink} to="/">

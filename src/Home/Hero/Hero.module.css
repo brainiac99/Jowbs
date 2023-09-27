@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   place-items: center;
+
+  padding-inline: 2rem;
 }
 
 .heroText {
