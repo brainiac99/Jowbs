@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import navStyles from "./Navigation.module.css";
 import Button from "../utils/Button";
+import navStyles from "./Navigation.module.css";
 
 function Navigation() {
   return (
     <nav className={navStyles.navigation}>
       <Link to="/" className={navStyles.logo}>
-          <img src="../../public/logo 5 violet.png" />
+          <img src="./logo 5 violet.png" />
       </Link>
       <ul className={navStyles.navLinks}>
         <li>
@@ -36,7 +36,7 @@ function Navigation() {
         </li>
       </ul>
       <div className={navStyles.dp}>
-        <img src="../../public/dp.jpg" />
+        <img src="./dp.jpg" />
       </div>
     </nav>
   );
