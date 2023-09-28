@@ -15,7 +15,7 @@ function Navigation() {
           </Link>
         </li>
         <li>
-          <Link className={navStyles.navLink} to="/">
+          <Link className={navStyles.navLink} to="/about">
             About
           </Link>
         </li>

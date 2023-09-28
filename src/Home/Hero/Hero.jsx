@@ -1,16 +1,13 @@
-import Lottie from "lottie-react";
-import animationData from "../../../public/animation 2.json";
+import animationData from "../../../public/animation-working.json";
 import Blob from "../../utils/Blob";
 import Button from "../../utils/Button";
 import heroStyles from "./Hero.module.css";
+import Illustration from "../../utils/Illustration";
 
 function Hero() {
-
   return (
     <section className={heroStyles.hero}>
-      <div className={heroStyles.figure}>
-        <Lottie animationData={animationData} loop={true} autoPlay={true} />
-      </div>
+      <Illustration animationData={animationData} loop={true} autoPlay={true} />
       <div className={heroStyles.heroText}>
         <h1 className={heroStyles.heroTitle}>
           Find and apply to your dream job from home
@@ -22,10 +19,14 @@ function Hero() {
           perspiciatis tempore distinctio. Libero debitis animi aut pariatur.
         </p>
         <div className={heroStyles.buttonsContainer}>
-          <Button link="/" type="primary">Start Searching</Button>
-          <Button link="/" type="secondary">Learn More</Button>
+          <Button link="/" type="primary">
+            Start Searching
+          </Button>
+          <Button link="/" type="secondary">
+            Learn More
+          </Button>
         </div>
-        <Blob className={heroStyles.blob}/>
+        <Blob className={heroStyles.blob} />
       </div>
     </section>
   );

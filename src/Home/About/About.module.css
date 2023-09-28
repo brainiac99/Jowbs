@@ -1,0 +1,63 @@
+.sectionAbout {
+  padding-inline: 2rem;
+}
+
+.pageHeading,
+.sectionReasons h2 {
+  padding-block: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  color: #7e67dd;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.learn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.learnText h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-block: 2rem;
+  color: #7e67dd;
+}
+
+.learnText p {
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.sectionReasons {
+  padding-inline: 2rem;
+  margin-top: 6rem;
+}
+
+.reasonsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.reason {
+  display: flex;
+  gap: 1rem;
+}
+
+.reasonIcon {
+  font-size: 2.4rem;
+  color: #7e67dd;
+}
+
+.reasonText h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #7e67dd;
+}
+
+.reasonText p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
