@@ -1,8 +1,8 @@
-import animationData from "../../../public/animation-working.json";
+import animationData from "../../../public/animations/animation-working.json";
 import Blob from "../../utils/Blob";
 import Button from "../../utils/Button";
-import heroStyles from "./Hero.module.css";
 import Illustration from "../../utils/Illustration";
+import heroStyles from "./Hero.module.css";
 
 function Hero() {
   return (
@@ -22,7 +22,7 @@ function Hero() {
           <Button link="/" type="primary">
             Start Searching
           </Button>
-          <Button link="/" type="secondary">
+          <Button link="/about" type="secondary">
             Learn More
           </Button>
         </div>

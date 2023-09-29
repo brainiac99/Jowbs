@@ -28,6 +28,9 @@
   justify-content: space-between;
   padding-inline: 1rem;
   text-align: left;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
 }
 
 .linksContainer h4 {
@@ -53,4 +56,23 @@
 
 .linksContainer a:hover {
   color: #000;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .content > div:first-child {
+    display: flex;
+    align-items: center;
+  }
+  .companyTitle {
+    margin-left: 0;
+  }
 }

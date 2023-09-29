@@ -1,0 +1,15 @@
+.formButton {
+  border: 2px solid #7e67dd;
+  background-color: #7e67dd;
+  color: #fff;
+  font-size: 1.4rem;
+
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.formButton:hover {
+  background-color: #603deb;
+  border-color: #603deb;
+}

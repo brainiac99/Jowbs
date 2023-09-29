@@ -42,7 +42,47 @@
 }
 
 @media (max-width: 1175px) {
+  .heroDescription {
+    font-size: 1rem;
+  }
   .blob {
     height: 70%;
+  }
+  .buttonsContainer {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 875px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  .buttonsContainer {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .heroTitle {
+    font-size: 2.4rem;
+  }
+
+  .heroDescription {
+    font-size: 1.1rem;
+  }
+  .buttonsContainer {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 526px) {
+  .buttonsContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .blob {
+    top: 0;
+    left: 0;
   }
 }

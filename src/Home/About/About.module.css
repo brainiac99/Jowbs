@@ -61,3 +61,16 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .learn {
+    grid-template-columns: 1fr;
+  }
+  .reasonsGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .reasonText h3 {
+    margin-bottom: 0.5rem;
+  }
+}

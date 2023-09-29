@@ -1,14 +1,18 @@
+import { BsLightningCharge } from "react-icons/bs";
+import {
+  FaCreativeCommonsZero,
+  FaDumbbell,
+  FaRegLightbulb,
+} from "react-icons/fa6";
+import animationData from "../../../public/animations/animation-searching.json";
 import Illustration from "../../utils/Illustration";
-import animationData from "../../../public/animation-searching.json";
-import {FaRegLightbulb, FaDumbbell, FaCreativeCommonsZero} from "react-icons/fa6"
-import {BsLightningCharge} from "react-icons/bs"
 import aboutStyles from "./About.module.css";
 
 function About() {
   return (
     <>
       <section className={aboutStyles.sectionAbout}>
-        <h1 className={aboutStyles.pageHeading}>About</h1>
+        <h1 className={aboutStyles.pageHeading}>About us</h1>
         <Learn />
       </section>
       <Reasons />
@@ -25,7 +29,7 @@ function Learn() {
         <p>
           Welcome, this is the ultimate online platform for job seekers and
           employers. We are more than just a job board, it is a simple and fast
-          way to find and apply for the best jobs for you. Whether you are
+          way to find and apply for the best jobs for you.Whether you are
           looking for a full-time, part-time, freelance, or remote job,
           jowbs.com can help you find it in seconds. Jowbs.com uses a powerful
           search engine to scan millions of job postings from thousands of
@@ -49,7 +53,7 @@ function Reasons() {
       <div className={aboutStyles.reasonsGrid}>
         <div className={aboutStyles.reason}>
           <div className={aboutStyles.reasonIcon}>
-            <BsLightningCharge/>
+            <BsLightningCharge />
           </div>
           <div className={aboutStyles.reasonText}>
             <h3>Simple and Fast</h3>
@@ -61,7 +65,7 @@ function Reasons() {
         </div>
         <div className={aboutStyles.reason}>
           <div className={aboutStyles.reasonIcon}>
-            <FaDumbbell/>
+            <FaDumbbell />
           </div>
           <div className={aboutStyles.reasonText}>
             <h3>Powerful and Relevant</h3>
@@ -74,7 +78,7 @@ function Reasons() {
         </div>
         <div className={aboutStyles.reason}>
           <div className={aboutStyles.reasonIcon}>
-            <FaRegLightbulb/>
+            <FaRegLightbulb />
           </div>
           <div className={aboutStyles.reasonText}>
             <h3>Informative and Trustworthy</h3>
@@ -86,7 +90,7 @@ function Reasons() {
         </div>
         <div className={aboutStyles.reason}>
           <div className={aboutStyles.reasonIcon}>
-            <FaCreativeCommonsZero/>
+            <FaCreativeCommonsZero />
           </div>
           <div className={aboutStyles.reasonText}>
             <h3>Free and Unlimited</h3>

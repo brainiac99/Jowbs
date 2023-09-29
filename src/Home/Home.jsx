@@ -4,11 +4,11 @@ import Navigation from "../Nav/Navigation";
 
 function Home() {
   return (
-    <>
+    <div className="container">
       <Navigation />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 

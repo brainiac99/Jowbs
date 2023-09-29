@@ -73,3 +73,31 @@
 .buttons button:hover {
   background-color: #ddd;
 }
+
+@media (max-width: 768px) {
+  .textContainer {
+    width: auto;
+    margin-inline: 2rem;
+  }
+  .buttons {
+    top: 110%;
+    left: 25%;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonialsContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rating {
+    margin-inline: auto;
+  }
+  .buttons {
+    top: 105%;
+    left: 0;
+  }
+  .container {
+    margin-left: -2rem;
+  }
+}

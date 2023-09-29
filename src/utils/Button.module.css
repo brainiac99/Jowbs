@@ -14,8 +14,9 @@
 }
 
 .primary:hover {
-  background-color: transparent;
-  color: #7e67dd;
+  background-color: #630deb;
+  border-color: #630deb;
+  /* color: #7e67dd; */
 }
 
 .secondary {
@@ -24,6 +25,7 @@
 }
 
 .secondary:hover {
-  background-color: #7e67dd;
+  background-color: #630deb;
+  border-color: #630deb;
   color: #fff;
 }

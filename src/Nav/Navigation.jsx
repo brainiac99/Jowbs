@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Button from "../utils/Button";
 import navStyles from "./Navigation.module.css";
 
@@ -10,30 +10,30 @@ function Navigation() {
       </Link>
       <ul className={navStyles.navLinks}>
         <li>
-          <Link className={navStyles.navLink} to="/">
+          <NavLink className={navStyles.navLink} to="/">
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className={navStyles.navLink} to="/about">
+          <NavLink className={navStyles.navLink} to="/about">
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className={navStyles.navLink} to="/">
+          <NavLink className={navStyles.navLink} to="/contact">
             Contact
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Button type="secondary" link="/">
-            Sign in
+          <Button type="primary" link="/login">
+            Login
           </Button>
         </li>
-        <li>
+        {/* <li>
           <Button type="primary" link="/">
             Sign up
           </Button>
-        </li>
+        </li> */}
       </ul>
       <div className={navStyles.dp}>
         <img src="./dp.jpg" />
