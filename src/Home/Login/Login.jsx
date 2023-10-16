@@ -8,9 +8,9 @@ function Login() {
       <h1 className={loginStyles.pageHeading}>Login to your account</h1>
       <form name="loginForm" action="submit">
         <label htmlFor="email">Email</label>
-        <input type="email" name="email" placeholder="example@email.com" />
+        <input type="email" name="email" id="email" placeholder="example@email.com" />
         <label htmlFor="password">Password</label>
-        <input type="password" name="password" />
+        <input type="password" name="password" id="password"/>
         <p className={loginStyles.remember}>
           <input type="checkbox" id="remember" name="remember" />
           <label htmlFor="remember">Remember me</label>

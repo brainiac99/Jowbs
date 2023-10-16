@@ -12,7 +12,8 @@
 
 .pageHeading {
   color: #7e67dd;
-  font-size: 1.8;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .sectionLogin form {

@@ -9,7 +9,6 @@
 
 .heroText {
   position: relative;
-  margin-right: 2rem;
   color: #22232b;
 }
 
@@ -22,6 +21,7 @@
 .heroDescription {
   font-size: 0.8rem;
   margin-bottom: 3rem;
+  margin-right: 2rem;
   line-height: 1.8;
 }
 
@@ -84,5 +84,6 @@
   .blob {
     top: 0;
     left: 0;
+    height: 55%;
   }
 }

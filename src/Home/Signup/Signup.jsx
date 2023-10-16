@@ -5,9 +5,9 @@ import signupStyles from "./Signup.module.css";
 function Signup() {
   return (
     <section className={signupStyles.sectionSignup}>
+      <h1 className={signupStyles.pageHeading}>Create new account</h1>
       <form name="signupForm" action="submit">
         <div className={signupStyles.signupGrid}>
-      <h1 className={signupStyles.pageHeading}>Create new account</h1>
           <label>First Name</label>
           <input type="text" placeholder="John"/>
           <label>Last Name</label>
